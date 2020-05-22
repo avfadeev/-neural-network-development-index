@@ -38,4 +38,3 @@ Description
 Unique index from the test dataset in the ascending order
 Prediction for the index on interest
 Optimal energy allocation
-sloy12
