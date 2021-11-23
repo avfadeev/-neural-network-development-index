@@ -20,12 +20,8 @@ torch.cuda.manual_seed(SEED)
 np.random.seed(SEED)
 #random.seed(SEED)
 
-!wget https://www.dropbox.com/s/1kz4rj67xna7ta7/test.csv
-!wget https://www.dropbox.com/s/b99noaytid2fcnr/train.csv
-!wget https://www.dropbox.com/s/03oq740813ndhj9/sample_submit.csv
-
-test_raw = pd.read_csv('/content/test.csv') 
-train_raw = pd.read_csv('/content/train.csv')
+test_raw = pd.read_csv('/test.csv') 
+train_raw = pd.read_csv('/train.csv')
 target = train_raw.y
 
 print("\n".join([i for i in train_raw.columns]))
